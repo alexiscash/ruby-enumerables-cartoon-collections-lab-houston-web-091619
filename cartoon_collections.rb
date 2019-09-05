@@ -17,4 +17,4 @@ end
 
 
 sample = ["Doc", "Dopey", "Bashful", "Grumpy"]
-puts summon_captain_planet(sample)
+p summon_captain_planet(sample)
