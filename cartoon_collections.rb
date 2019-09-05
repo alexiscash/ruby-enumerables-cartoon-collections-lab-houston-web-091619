@@ -6,8 +6,8 @@ def summon_captain_planet(array)
   array.map { |elem| elem.capitalize + '!' }
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  array.include? { |elem| elem.length > 4 }
 end
 
 def find_the_cheese# code an argument here
@@ -17,4 +17,4 @@ end
 
 
 sample = ["Doc", "Dopey", "Bashful", "Grumpy"]
-p summon_captain_planet(sample)
+p long_planeteer_calls(sample)
