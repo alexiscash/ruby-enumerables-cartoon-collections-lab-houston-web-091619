@@ -7,10 +7,10 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  # current = false 
-  # array.each { |elem| current = current || elem.length > 4 }
-  # current
-  array.reduce { |memo, n| memo || n.length > 4 }
+  current = false 
+  array.each { |elem| current = current || elem.length > 4 }
+  current
+  # array.reduce { |memo, n| memo || n.length > 4 }
 end
 
 def find_the_cheese# code an argument here
