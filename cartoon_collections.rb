@@ -8,7 +8,7 @@ end
 
 def long_planeteer_calls(array)
   current = false 
-  array.each { |elem| current = current || elem.length < 4 }
+  array.each { |elem| current = current || elem.length <= 4 }
   current
 end
 
